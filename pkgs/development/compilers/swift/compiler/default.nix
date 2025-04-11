@@ -482,6 +482,7 @@ stdenv.mkDerivation {
           {
             "x86_64" = "X86";
             "aarch64" = "AArch64";
+            "armv7l" = "ARM";
           }
           .${targetPlatform.parsed.cpu.name}
         }
